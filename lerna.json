@@ -1,0 +1,20 @@
+{
+  "packages": [
+    "packages/*",
+    "apps/*",
+    "playwright/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "useNx": true,
+  "command": {
+    "version": {
+      "message": "build: update version"
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
+}
